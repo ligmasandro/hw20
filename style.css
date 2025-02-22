@@ -1,60 +1,69 @@
-body{
-    background-color: rgb(5, 205, 255);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    font-family: sans-serif;
+body {
+  background-color: hsl(212, 100%, 69%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
 }
-.container{
-    background-color: white;
-    display: flex;
-    padding: 20px;
-    border-radius: 20px;
+.container {
+  background-color: white;
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  gap: 20px;
 }
-.personal-box{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+.personal-box {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
-.small-team{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    border-right:2px solid rgb(128, 128, 128) ;
-   border-left: 2px solid rgb(128, 128, 128) ;
+.small-team {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid hsl(210, 100%, 97%);
+  border-left: 2px solid hsl(210, 100%, 97%);
 }
-.box-enterprise{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-
+.box-enterprise {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
-h2{
-    color: gray;
+h2 {
+  color: gray;
 }
-p{
-    color: rgb(1, 103, 255);
-    font-weight: 500px;
-    text-align: center;
-    font-size: 20px;
-    
+p {
+  color: rgb(53, 160, 248);
+  font-weight: 500px;
+  text-align: center;
+  font-size: 20px;
 }
-h1{
-    color: rgb(36, 36, 247);
+h1 {
+  color: hsl(213, 99%, 49%);
 }
-.btn-1{
-    border-radius: 20px;
-    width: 150px;
-    height: 50px;
-    border: 1px solid rgb(1, 103, 255);
-    color: white;
-    font-weight: 500;
+.btn-1 {
+  border-radius: 10px;
+  width: 150px;
+  height: 60px;
+  border: 1px solid;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
 }
-.btn-blue{
-    background-color: rgb(1, 103, 255);
+.btn-blue {
+  background-color: rgb(53, 160, 248);
+}
+.back-gray {
+  background-color: rgb(255, 255, 255);
+  color: rgb(53, 160, 248);
+}
+.bottom {
+  border-top: 1px solid;
+  border-bottom: 1px solid rgb(53, 160, 248);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
